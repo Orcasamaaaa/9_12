@@ -1,0 +1,17 @@
+- model : DS.Course
+  fields :
+    Course_id : 111
+    Course_name : Dstool
+    Teacher_name : Orca
+
+- model : DS.Course
+  fields :
+    Course_id : 123
+    Course_name : Ds
+    Teacher_name : Orcaaaa
+
+- model : DS.Course
+  fields :
+    Course_id : 124
+    Course_name : ddsda
+    Teacher_name : Orcasadas

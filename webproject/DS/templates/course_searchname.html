@@ -1,0 +1,10 @@
+<h1>couse id name</h1>
+<form method="get">
+    <input type="text" name="code">
+    <button type="submit">ยืนยัน</button>
+</form>
+<ul>
+    {% for course in courses %}
+        <li>{{ course.Course_id }} -{{ course.Course_name }} - {{ course.Teacher_name }} -</li>
+    {% endfor %}
+</ul>

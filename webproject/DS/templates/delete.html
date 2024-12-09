@@ -1,0 +1,6 @@
+<h1>delete course : {{ course.Course_name }}</h1>
+<p> are you want to delte course {{ course.Course_id }} - {{ course.Course_name }}</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">yes, delete</button>
+</form>
